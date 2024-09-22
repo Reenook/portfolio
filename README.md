@@ -1,3 +1,3 @@
 # Portfolio
 
-A simple react portfolio made with tailwind css and fraer motion 
+A simple react portfolio made with tailwind css and framer motion 
