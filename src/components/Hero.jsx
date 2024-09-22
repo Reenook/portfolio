@@ -60,7 +60,7 @@ const Hero = () => {
                         <motion.img
                             src={profilePic}
                             alt="Reenad Khan"
-                            className="border border-stone-900 rounded-3xl w-full max-w-sm"
+                            className="border border-stone-900 rounded-full w-full max-w-sm"
                             width={650}
                             height={650}
                             initial="hidden"
