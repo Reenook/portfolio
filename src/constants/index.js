@@ -3,7 +3,7 @@ import project2 from "../assets/projects/project2.webp";
 import project3 from "../assets/projects/project3.webp";
 
 
-export const HERO_CONTENT = `An aspiring AI and Frontend developer with experience in React, Flask , Tailwind, Opencv, Tensorflow and various other technologies looking to use my experience within the corporate world and contribute to exciting new projects.`;
+export const HERO_CONTENT = `An aspiring AI and Frontend developer looking for opportunities to work on new and scalable projects. Interested in the fields of computer vision, machine learning and web development`;
 
 
 export const PROJECTS = [

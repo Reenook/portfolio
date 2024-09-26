@@ -76,12 +76,12 @@ const Hero = () => {
                         className="flex flex-col items-center lg:items-start mt-10 lg:mt-0">
                         <motion.h2
                             variants={childrenVariants}
-                            className="pb-2 text-4xl tracking-tighter lg:text-7xl">
-                            Reenad Khan
+                            className="pb-4 text-4xl tracking-tight lg:text-7xl text-white font-bold ">
+                           Hey there im , Reenad
                         </motion.h2>
                         <motion.span
                             variants={childrenVariants}
-                            className="bg-gradient-to-r from-stone-300 to-stone-600 bg-clip-text text-3xl tracking-tight text-transparent">AI Developer</motion.span>
+                            className="text-2xl tracking-tight ">Developer | Undergrad student </motion.span>
                         <p className="my-2 max-w-lg py-6 text-xl leading-relaxed tracking-tighter">
                             {HERO_CONTENT}
                         </p>
@@ -90,7 +90,7 @@ const Hero = () => {
                             target="_blank"
                             rel="noopener noreferrer"
                             download
-                            className="bg-transparent border border-white rounded-full p-4 text-sm text-white hover:bg-white hover:text-stone-800 hover:shadow-lg transition duration-300">Download Resume</a>
+                            className={"font-bold bg-white border border-black rounded-full p-4 text-sm text-black hover:bg-indigo-700 hover:text-white hover:border-lg transition duration-300"}>Download Resume</a>
                     </motion.div>
                 </div>
             </div>

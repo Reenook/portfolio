@@ -1,12 +1,14 @@
 import { FaGithub, FaLinkedin } from "react-icons/fa";
-
+import mylogo from "../assets/NewLogo.png";
 const Navbar = () => {
     return (
-        <nav className="flex items-center justify-between py-6 lg:mb-36 lg:mx-36 mx-4">
+        <nav className="flex items-center justify-between py-4 lg:mb-36 lg:mx-36 mx-4">
             <div className="flex flex-shrink-0 items-center">
-                <a href="/" aria-label="HOME" className="font-bold text-2xl">Home</a>
+                <a href={"/"}>
+                    <img src={mylogo} alt={"Logo"}/>
+                </a>
             </div>
-            <div className="flex items-center justify-center gap-4 text-3xl">
+            <div className="flex items-center justify-center space-x-5 text-3xl">
                 <a
                     href="https://www.linkedin.com/in/reenad-khan-78989530b/"
                     target="_blank"
